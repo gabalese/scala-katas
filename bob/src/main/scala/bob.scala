@@ -22,8 +22,6 @@ case class Phrase(phrase: String) {
   }
 
   def isSilence: Boolean = {
-    phrase
-      .trim
-      .isEmpty
+    phrase.trim.isEmpty
   }
 }
